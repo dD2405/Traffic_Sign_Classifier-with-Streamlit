@@ -48,3 +48,6 @@ Contains the saved keras model named
 ### Test Random Images
 - This contains images from the internet. A total of 43 images belonging to each class.
 - Our model will be tested using this unseen data
+
+### Streamlit App Output
+- Contains the App's final output 
