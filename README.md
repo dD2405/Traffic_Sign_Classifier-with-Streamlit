@@ -20,9 +20,13 @@ Test Data: https://drive.google.com/open?id=127Usik6jjD_oBhr5hDojgLARW9XYxWdr
 ### Google Colab Notebook
 #### Contains the whole process of building the CNN Model 
 - Load the Pickled dataset
-- Use Seaborn to visualise the data
-- Preprocess the images using OpenCV
-- Use ImageDataGenerator for image augmentation and help the model generalise it's results
-- Build 
-- Excel Result : The excel file contains the accuracy for the random images tested from the internet
-- Signnames : signnames.csv file contains the class names and their corresponding labels.
+- Use Seaborn to visualise the data.
+- Preprocess the images using OpenCV.
+- Use ImageDataGenerator for image augmentation and help the model generalise it's results.
+- In our build_model(hp) function we start building our CNN model using KerasTuner and then compile our model.
+- KerasTuner gives us the best hyperparameter combinations using RandomSearch method.
+- We now create a model checkpoint and then fit the model and run it for 40 epochs.
+- Now Load the model's weights and biases and evaluate it on our test dataset.
+- Save our model in Keras HDF5 format.
+- Use the saved model to test on random images.
+
