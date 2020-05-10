@@ -7,8 +7,10 @@ import streamlit as st
 # get_model() loads the model into the cache
 @st.cache(allow_output_mutation=True)
 def get_model():
-	model = load_model('Traffic_Sign_Classifier_CNN.hdf5')
-        print('Model Loaded')
+	# Change the directory accroding to your use
+        model = load_model('C:\\Users\\hp\\Desktop\\traffic-sign-classifier\\Streamlit App\\Model\\Traffic_Sign_Classifier_CNN.hdf5')
+        
+	print('Model Loaded')
         return model
 
         
