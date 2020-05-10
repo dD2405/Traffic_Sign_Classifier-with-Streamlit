@@ -44,3 +44,7 @@ Contains the saved keras model named
 #### upload.py
 - Contains the front-end code for the streamlit app.
 - Imports the predict() function fetches the result and displays it.
+
+### Test Random Images
+- This contains images from the internet. A total of 43 images belonging to each class.
+- Our model will be tested using this unseen data
