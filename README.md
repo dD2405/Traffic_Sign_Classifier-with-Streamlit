@@ -73,7 +73,7 @@ Contains the saved keras model named
 - In your Command line/Terminal go to the directory where you have upload.py file then type 
 #### streamlit run upload.py
 
-### App Output
+## App Output
 #### Output 1
 ![alt text](https://github.com/dD2405/Traffic_Sign_Classifier-with-Streamlit/blob/master/Streamlit%20App%20Output/Screenshot%20(1).png)
 
