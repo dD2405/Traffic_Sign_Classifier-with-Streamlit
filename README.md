@@ -17,5 +17,12 @@ Validation Data: https://drive.google.com/open?id=1bLWaYJZHroOyfPVscVdBjh9atjvHD
 Test Data: https://drive.google.com/open?id=127Usik6jjD_oBhr5hDojgLARW9XYxWdr
 
 ## Folders
+### Google Colab Notebook
+#### Contains the whole process of building the CNN Model 
+- Load the Pickled dataset
+- Use Seaborn to visualise the data
+- Preprocess the images using OpenCV
+- Use ImageDataGenerator for image augmentation and help the model generalise it's results
+- Build 
 - Excel Result : The excel file contains the accuracy for the random images tested from the internet
 - Signnames : signnames.csv file contains the class names and their corresponding labels.
