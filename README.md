@@ -31,23 +31,22 @@ Test Data: https://drive.google.com/open?id=127Usik6jjD_oBhr5hDojgLARW9XYxWdr
 - Use the saved model to test on random images.
 
 ### Streamlit App
-
 ### Model
 Contains the saved keras model named
 - ###### Traffic_sign_classifier_CNN.hdf5
-
 ### App
 #### classify.py
 - get_model(): Loads the saved model into cache using streamlit's "@st.cache" feature.
 - predict(): Takes an image as input from the function parameter, preprocesses it and feeds it to the model for results.
-
 #### upload.py
 - Contains the front-end code for the streamlit app.
 - Imports the predict() function fetches the result and displays it.
 
+
 ### Test Random Images
 - This contains images from the internet. A total of 43 images belonging to each class.
 - Our model will be tested using this unseen data
+
 
 ### Streamlit App Output
 - Contains the App's final output 
