@@ -31,6 +31,7 @@ Test Data: https://drive.google.com/open?id=127Usik6jjD_oBhr5hDojgLARW9XYxWdr
 - Use the saved model to test on random images.
 
 ### Streamlit App
-#### App
-- classify.py : get_model() loads the saved model into cache using streamlit's "@st.cache" feature.
-                predict(image) takes an image as input and preprocesses it and feeds it into the model for results.
+### App
+#### classify.py
+- get_model(): loads the saved model into cache using streamlit's "@st.cache" feature.
+               predict(image) takes an image as input and preprocesses it and feeds it into the model for results.
