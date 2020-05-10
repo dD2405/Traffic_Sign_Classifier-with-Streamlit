@@ -47,6 +47,12 @@ Contains the saved keras model named
 - This contains images from the internet. A total of 43 images belonging to each class.
 - Our model will be tested using this unseen data
 
-
 ### Streamlit App Output
 - Contains the App's final output 
+
+### Class Names and Labels
+- Contains the signnames.csv file
+
+### Result Excel
+- Conatins a exccel sheet having the results of our test results on random images from the internet
+- Also contains the accuracy of our model on unseen data 
