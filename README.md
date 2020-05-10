@@ -16,7 +16,7 @@ Validation Data: https://drive.google.com/open?id=1bLWaYJZHroOyfPVscVdBjh9atjvHD
 
 Test Data: https://drive.google.com/open?id=127Usik6jjD_oBhr5hDojgLARW9XYxWdr
 
-## Folders
+## Folders Description
 ### Google Colab Notebook
 #### Contains the whole process of building the CNN Model 
 - Load the Pickled dataset
@@ -30,3 +30,7 @@ Test Data: https://drive.google.com/open?id=127Usik6jjD_oBhr5hDojgLARW9XYxWdr
 - Save our model in Keras HDF5 format.
 - Use the saved model to test on random images.
 
+### Streamlit App
+#### App
+- classify.py : get_model() loads the saved model into cache using streamlit's "@st.cache" feature.
+                predict(image) takes an image as input and preprocesses it and feeds it into the model for results.
