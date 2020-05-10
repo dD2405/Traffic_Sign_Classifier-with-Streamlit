@@ -33,5 +33,5 @@ Test Data: https://drive.google.com/open?id=127Usik6jjD_oBhr5hDojgLARW9XYxWdr
 ### Streamlit App
 ### App
 #### classify.py
-- get_model(): loads the saved model into cache using streamlit's "@st.cache" feature.
-               predict(image) takes an image as input and preprocesses it and feeds it into the model for results.
+- get_model(): Loads the saved model into cache using streamlit's "@st.cache" feature.
+- predict(image): Takes an image as input and preprocesses it and feeds it to the model for results.
