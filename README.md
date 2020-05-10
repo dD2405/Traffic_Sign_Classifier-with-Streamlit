@@ -31,6 +31,11 @@ Test Data: https://drive.google.com/open?id=127Usik6jjD_oBhr5hDojgLARW9XYxWdr
 - Use the saved model to test on random images.
 
 ### Streamlit App
+
+### Model
+- Contains the saved keras model named
+###### Traffic_sign_classifier_CNN.hdf5
+
 ### App
 #### classify.py
 - get_model(): Loads the saved model into cache using streamlit's "@st.cache" feature.
