@@ -33,7 +33,7 @@ Test Data: https://drive.google.com/open?id=127Usik6jjD_oBhr5hDojgLARW9XYxWdr
 ### Streamlit App
 
 ### Model
-- Contains the saved keras model named
+Contains the saved keras model named
 - ###### Traffic_sign_classifier_CNN.hdf5
 
 ### App
