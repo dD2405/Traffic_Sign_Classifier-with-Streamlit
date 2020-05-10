@@ -72,3 +72,13 @@ Contains the saved keras model named
 - You need the Streamlit App folder to run this application.
 - In your Command line/Terminal go to the directory where you have upload.py file then type 
 #### streamlit run upload.py
+
+### App Output
+#### Output 1
+![alt text](https://github.com/dD2405/Traffic_Sign_Classifier-with-Streamlit/blob/master/Streamlit%20App%20Output/Screenshot%20(1).png)
+
+#### Output 2
+![alt text](https://github.com/dD2405/Traffic_Sign_Classifier-with-Streamlit/blob/master/Streamlit%20App%20Output/Screenshot%20(3).png)
+
+#### Output 3
+![alt text](https://github.com/dD2405/Traffic_Sign_Classifier-with-Streamlit/blob/master/Streamlit%20App%20Output/Screenshot%20(2).png)
