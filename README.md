@@ -2,7 +2,7 @@
 
 ## Project overview
 - The aim of this project is to focus on the first fundamental features of the decision making ability of an autonomous vehicle, 
-i.e., to develop a deep learning model that reads traffic signs and classifies them correctly using CNN.
+i.e., to develop a deep learning model that reads traffic signs and classifies them correctly using Convolutional Neural Networks(CNNs).
 
 - The traffic sign classifier uses a German traffic dataset. The German traffic dataset consists of
 34,799 32*32 pixels colored images that is used for the training dataset, 12,630 images are used
