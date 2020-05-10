@@ -34,7 +34,7 @@ Test Data: https://drive.google.com/open?id=127Usik6jjD_oBhr5hDojgLARW9XYxWdr
 
 ### Model
 - Contains the saved keras model named
-###### Traffic_sign_classifier_CNN.hdf5
+- ###### Traffic_sign_classifier_CNN.hdf5
 
 ### App
 #### classify.py
