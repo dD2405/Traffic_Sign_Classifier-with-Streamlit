@@ -24,7 +24,7 @@ Test Data: https://drive.google.com/open?id=127Usik6jjD_oBhr5hDojgLARW9XYxWdr
 - Use Seaborn to visualise the data.
 - Preprocess the images using OpenCV.
 - Use ImageDataGenerator for image augmentation and help the model generalise it's results.
-- In our build_model(hp) function we start building our CNN model using KerasTuner and then compile our model.
+- build_model() function takes hyperparameter(hp) as input and we start building our CNN model using KerasTuner and then compile our model.
 - KerasTuner gives us the best hyperparameter combinations using RandomSearch method.
 - We now create a model checkpoint and then fit the model and run it for 40 epochs.
 - Now Load the model's weights and biases and evaluate it on our test dataset.
