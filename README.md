@@ -56,7 +56,8 @@ Contains the saved keras model named
 
 ### Result Excel
 - Conatins a exccel sheet having the results of our test results on random images from the internet
-- Also contains the accuracy of our model on unseen data 
+- Also contains the accuracy of our model on unseen data
+- Accuracy on unseen data : 79.06%
 
 ## Run this app on your system.
 ### Requirements
