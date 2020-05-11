@@ -74,11 +74,6 @@ Contains the saved keras model named
 #### streamlit run upload.py
 
 ## App Output
-#### Output 1
-![alt text](https://github.com/dD2405/Traffic_Sign_Classifier-with-Streamlit/blob/master/Streamlit%20App%20Output/Screenshot%20(1).png)
+![alt text](https://github.com/dD2405/Traffic_Sign_Classifier-with-Streamlit/blob/master/Streamlit%20App%20Output/streamlit-upload-2020-05-11-13-0.gif)
 
-#### Output 2
-![alt text](https://github.com/dD2405/Traffic_Sign_Classifier-with-Streamlit/blob/master/Streamlit%20App%20Output/Screenshot%20(3).png)
 
-#### Output 3
-![alt text](https://github.com/dD2405/Traffic_Sign_Classifier-with-Streamlit/blob/master/Streamlit%20App%20Output/Screenshot%20(2).png)
