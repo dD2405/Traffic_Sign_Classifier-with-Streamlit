@@ -49,7 +49,7 @@ sign_names = {
         42: 'End of no passing by vehicles over 3.5 metric tons'}
 
 st.title("Traffic Sign Classifier")
-
+st.markdown('Upload .jpg files')
 uploaded_file = st.file_uploader("Choose an image...", type="jpg")
 if uploaded_file is not None:
 
