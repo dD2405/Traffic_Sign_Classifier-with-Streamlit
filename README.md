@@ -1,6 +1,6 @@
 # Traffic_Sign_Classifier-with-Streamlit
 
-## Application:
+## App:
 - Link: https://traffic-sign-classification.herokuapp.com/
 
 
