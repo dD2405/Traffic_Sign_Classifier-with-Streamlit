@@ -45,7 +45,10 @@ Contains the saved keras model named
 #### upload.py
 - Contains the front-end code for the streamlit app.
 - Imports the predict() function fetches the result and displays it.
-
+#### Procfile
+A Procfile is a file which describes how to run your application.
+#### requirements.txt
+This has all the dependencies required to deploy our application on Heroku
 
 ### Test Random Images
 - This contains images from the internet. A total of 43 images belonging to each class.
