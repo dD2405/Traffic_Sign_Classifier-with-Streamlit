@@ -1,7 +1,7 @@
 # Traffic_Sign_Classifier-with-Streamlit
 
 ## App:
-- Link: https://traffic-sign-firebase.herokuapp.com/
+- Link: https://traffic-sign-classification.herokuapp.com/
 
 
 
@@ -40,22 +40,6 @@ Test Data: https://drive.google.com/open?id=127Usik6jjD_oBhr5hDojgLARW9XYxWdr
 - Save our model in Keras HDF5 format.
 - Use the saved model to test on random images.
 
-### Streamlit App
-### Model
-Contains the saved keras model named
-- ###### Traffic_sign_classifier_CNN.hdf5
-### App
-#### classify.py
-- get_model(): Loads the saved model into cache using streamlit's "@st.cache" feature.
-- predict(): Takes an image as input from the function parameter, preprocesses it and feeds it to the model for results.
-#### upload.py
-- Contains the front-end code for the streamlit app.
-- Imports the predict() function fetches the result and displays it.
-#### Procfile
-A Procfile is a file which describes how to run your application.
-#### requirements.txt
-This has all the dependencies required to deploy our application on Heroku
-
 ### Test Random Images
 - This contains images from the internet. A total of 43 images belonging to each class.
 - Our model will be tested using this unseen data
@@ -70,6 +54,25 @@ This has all the dependencies required to deploy our application on Heroku
 - Conatins a exccel sheet having the results of our test results on random images from the internet
 - Also contains the accuracy of our model on unseen data
 - Accuracy on unseen data : 79.06%
+### Model
+Contains the saved keras model named
+- ###### Traffic_sign_classifier_CNN.hdf5
+
+## App
+
+#### classify.py
+- get_model(): Loads the saved model into cache using streamlit's "@st.cache" feature.
+- predict(): Takes an image as input from the function parameter, preprocesses it and feeds it to the model for results.
+
+#### upload.py
+- Contains the front-end code for the streamlit app.
+- Imports the predict() function fetches the result and displays it.
+
+#### Procfile
+A Procfile is a file which describes how to run your application.
+
+#### requirements.txt
+This has all the dependencies required to deploy our application on Heroku
 
 ## Run this app on your system.
 ### Requirements
