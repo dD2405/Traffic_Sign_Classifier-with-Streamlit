@@ -58,7 +58,7 @@ Test Data: https://drive.google.com/open?id=127Usik6jjD_oBhr5hDojgLARW9XYxWdr
 Contains the saved keras model named
 - ###### Traffic_sign_classifier_CNN.hdf5
 
-## App
+## Files for our Streamlit App
 
 #### classify.py
 - get_model(): Loads the saved model into cache using streamlit's "@st.cache" feature.
