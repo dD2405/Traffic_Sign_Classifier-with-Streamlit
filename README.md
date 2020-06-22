@@ -87,6 +87,6 @@ This has all the dependencies required to deploy our application on Heroku
 - Clone this repository
 - You need the Streamlit App folder to run this application.
 - In your Command line/Terminal go to the directory where you have upload.py file then type 
-#### streamlit run upload.py
+#### streamlit run app.py
 
 
