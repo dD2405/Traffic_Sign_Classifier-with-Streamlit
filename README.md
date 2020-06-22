@@ -64,7 +64,7 @@ Contains the saved keras model named
 - get_model(): Loads the saved model into cache using streamlit's "@st.cache" feature.
 - predict(): Takes an image as input from the function parameter, preprocesses it and feeds it to the model for results.
 
-#### upload.py
+#### app.py
 - Contains the front-end code for the streamlit app.
 - Imports the predict() function fetches the result and displays it.
 
