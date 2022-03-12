@@ -9,7 +9,7 @@ Keras-Preprocessing==1.1.0
 numpy==1.18.3
 opencv-python==4.2.0.34
 packaging==20.3
-Pillow==7.1.1
+Pillow==9.0.1
 requests==2.23.0
 requests-file==1.4.3
 scikit-learn==0.22.2.post1
