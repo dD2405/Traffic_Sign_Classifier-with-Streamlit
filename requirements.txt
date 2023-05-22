@@ -10,7 +10,7 @@ numpy==1.18.3
 opencv-python==4.2.0.34
 packaging==20.3
 Pillow==7.1.1
-requests==2.23.0
+requests==2.31.0
 requests-file==1.4.3
 scikit-learn==0.22.2.post1
 scipy==1.4.1
